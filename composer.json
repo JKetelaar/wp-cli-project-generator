@@ -1,0 +1,25 @@
+{
+  "name": "jketelaar/project-generator",
+  "description": "Generates a WordPress project",
+  "type": "wp-cli-package",
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "authors": [
+    {
+      "name": "JKetelaar",
+      "email": "jeroen@ketelaar.me"
+    }
+  ],
+  "require-dev": {
+    "php": ">=5.6",
+    "wp-cli/wp-cli": "*"
+  },
+  "autoload": {
+    "files": [
+      "command.php"
+    ],
+    "psr-0": {
+      "jketelaar": "src/"
+    }
+  }
+}
